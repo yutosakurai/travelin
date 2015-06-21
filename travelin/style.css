@@ -502,6 +502,19 @@ footer {
 	margin-top: 5%;
 }
 
+.pagetopbtn {
+	position: fixed;
+	bottom: 0%;
+	top: auto;
+	margin-left: 20%;
+}
+
+.pagetopbtn img {
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+
 
 /* バックパックバックパックバックパックバックパックバックパックバックパック
 バックパックバックパックバックパックバックパックバックパックバックパック */
