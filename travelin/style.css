@@ -1,0 +1,510 @@
+body {
+	margin: 0%;
+}
+.wrap {
+	height: 100%;
+	margin: 0%;
+}
+
+nav {
+	width: 20%;
+	height: 100%;
+	margin: 0%;
+	float: right;
+	position: fixed;
+}
+
+.logo {
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+	margin-top: 20%;
+	margin-bottom: 40%;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sidenav {
+	width: 100%;
+	height: 35%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 40%;
+	padding: 0%;
+}
+
+#sidenav li {
+	width: 100%;
+	height: auto;
+	list-style-type: none;
+	margin-bottom: 10%;
+}
+
+#sidenav li a{
+	font-size: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	border-radius: 0;
+	display: block;
+	padding: 20px;
+	transition: 0.5s;
+}
+
+#sidenav li a:hover {
+	color: #BBC000;
+	
+}
+
+.col-hero {
+	background-image: url(images/travelintop.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 100%;
+	margin: 0%;
+	float: right;
+}
+
+.col-hero img{
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+	margin: 0%;
+}
+
+/* サブページサブページサブページサブページサブページサブページサブページ
+サブページサブページサブページサブページサブページサブページサブページサブページ */
+
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0%;
+	float: right;
+}
+
+#keyblock1 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+}
+
+#keyblock1 img{
+	width: 100%;
+	height: auto;
+}
+
+#keyblock2 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#charm {
+	width: 50%;
+	height: auto;
+	margin: 0%;
+	background-image: url(images/charm.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#charm img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#charm:hover img {
+	opacity: 1;
+}
+
+
+#charmexplain {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#charmexplain p {
+	padding: 3%;
+}
+
+#keyblock3 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#diaryfont {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#diaryfont img {
+	width: 100%;
+	height: auto;
+}
+
+#diary {
+	width: 50%;
+	height: auto;
+	background-image: url(images/diary.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#diary img {
+	width: 100%;
+	height: auto;
+	display: block;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#diary:hover img {
+	opacity: 1;
+}
+
+#keyblock4 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#usa {
+	width: 50%;
+	height: auto;
+	background-image: url(images/usa.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#usa img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#usa:hover img {
+	opacity: 1;
+}
+
+#usaexplain {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#usaexplain p {
+	padding: 3%;
+}
+
+#keyblock5 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#camera {
+	width: 25%;
+	height: auto;
+	background-image: url(images/camera.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 50%;
+	float: left;
+}
+
+#camera img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#camerafont {
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+#camerafont img {
+	width: 100%;
+	height: auto;
+}
+
+#camera:hover img {
+	opacity: 1;
+}
+
+#keyblock6 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#london {
+	width: 50%;
+	height: auto;
+	background-image: url(images/london.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#london img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#london:hover img {
+	opacity: 1;
+}
+
+#music {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+#musicfont {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#musicfont img {
+	width: 100%;
+	height: auto;
+}
+
+#ipod {
+	width: 50%;
+	height: auto;
+	background-image: url(images/ipod.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#ipod img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#ipod:hover img {
+	opacity: 1;
+}
+
+#lodonexplain {
+	width: 50%;
+	height: 50%;
+	float: left;
+	clear: both;
+}
+
+#londonexplain.col-3 {
+	clear: both;
+}
+
+#londonexplain p {
+	padding: 3%;
+}
+
+#keyblock7 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#watchfont {
+	width: 35%;
+	height: auto;
+	float: left;
+}
+
+#watchfont img {
+	width: 100%;
+	height: auto;
+}
+
+#watch {
+	width: 65%;
+	height: auto;
+	background-image: url(images/watch.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#watch img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#watch:hover img {
+	opacity: 1;
+}
+
+#keyblock8 {
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	overflow: hidden;
+	display: block;
+}
+
+#writer {
+	width: 35%;
+	height: auto;
+	background-image: url(images/travelwriter.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#writer img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    filter: alpha(opacity=0);
+}
+
+#writer:hover img {
+	opacity: 1;
+}
+
+#writerexplain {
+	width: 65%;
+	height: auto;
+	float: left;
+}
+
+#writerexplain img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 30%;
+	margin-top: 20%;
+	margin-bottom: 0%;
+	overflow: hidden;
+}
+
+#footernav {
+	width: 50%;
+	height: 100%;
+	margin-left: 0%;
+	margin-bottom: 40%;
+	padding: 3% 0% 0% 0%;
+	float: left;
+}
+
+#footernav li {
+	width: 100%;
+	height: 10%;
+	margin-bottom: 2%;
+	list-style-type: none;
+}
+
+#footernav li a{
+	font-size: 20px;
+	margin-left: 15%;
+	text-decoration: none;
+	text-align: left;
+	color: white;
+	border-radius: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+#footernav li a:hover {
+	color: #BBC000;
+}
+
+.footerlogo {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.footerlogo img {
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+}
+
+
+/* バックパックバックパックバックパックバックパックバックパックバックパック
+バックパックバックパックバックパックバックパックバックパックバックパック */
+
+
+
